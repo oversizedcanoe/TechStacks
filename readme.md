@@ -8,7 +8,7 @@ The purpose of this repo is to list out the languages, libraries, and tools I li
  - For large, dynamic, feature rich Front Ends (FE), Angular is my framework of choice. The batteries included approach to everything, from routing, HTTP requests, and *especially* Dependency Injection, is hard to beat when developing a complex application.
    - I use the Angular CLI to start and develop Angular apps.
 
- - For smaller -- but still dynamic and interactive -- apps, I have been enjoying React. I know it is fully capable of being used for larger projects (case in point: FaceBook), but I prefer Angular for such a task. By keeping the TS and HTML in a single file, unlike Angular, it guides me to write smaller, simpler components.
+ - For smaller -- but still dynamic and interactive -- apps, I have been enjoying React. I know it is fully capable of being used for larger projects (case in point: FaceBook), but I prefer Angular for such a task. By keeping the TS and HTML in a single file (unlike Angular), it guides me to write smaller, simpler components.
    - I have had success using Vite to start and develop React apps.
 
  - For static websites, I have been using Astro. It has great DX, runs fast, codes similar to React, and probably does a bunch of stuff I don't even know about. I don't think it would be great for a 'Web Application'-type website, but for content-focused sites it works great. I'd like to try out their [templates](https://github.com/withastro/astro/tree/main/examples) one day.
@@ -16,9 +16,8 @@ The purpose of this repo is to list out the languages, libraries, and tools I li
  - Blazor is a wild card. I won't use Blazor unless I specifically have a .NET backend (is it even possible to use a non-C# backend...?). It's a really fast way to build an MVP. I'm not sure how well it would scale with a multitude of features or interactivity requirements. In my relatively inexperienced opinion, it's got a specific use case as a basic front end for some sort of .NET service or class library. Blazor WASM could definitely help improve this, though. 
 
 ##### CSS
-templates
-
-
+- I really only have experience with Bootstrap. I've toyed around with other libraries a handful of times but none of them have ever stuck.
+- I'd like to try out other CSS libraries, ideally ones which provide components and layout functionality like Bootstrap. A few I'd like to try are Tailwind CSS (or maybe Daisy UI) and Materialize.
 
 ### Back End
 
