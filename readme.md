@@ -17,7 +17,7 @@ The purpose of this repo is to list out the languages, libraries, and tools I li
 
 ##### CSS
 - I really only have experience with Bootstrap. I've toyed around with other libraries a handful of times but none of them have ever stuck.
-- I'd like to try out other CSS libraries, ideally ones which provide components and layout functionality like Bootstrap. A few I'd like to try are Tailwind CSS (or maybe Daisy UI) and Materialize.
+- I'd like to try out other CSS libraries in the future, ideally ones which provide components and layout functionality like Bootstrap. A few I'd like to try are Tailwind CSS (or maybe Daisy UI) and Materialize.
 
 ### Back End
 - For large, complex, feature rich applications, .NET (using C#) is my framework of choice. *Yes, I copied the first sentence from the Angular section.* .NET feels the same as Angular in the sense that it has built in libraries for almost everything, and a rich package manager for things it doesn't. Entity Framework Core is also amazing to work with. Whether it is a class library, background service, MVC, or Web API, .NET is my #1.
@@ -26,8 +26,12 @@ The purpose of this repo is to list out the languages, libraries, and tools I li
 ### Database
 - For complex projects, I like using SQL Server. It is feature rich and dependable.
 - For simple projects and MVPs, I like using SQLite.
+- I'd like to try a NoSQL database in the future.
 
 ### Desktop
-
+- I don't really build desktop apps. I have experence with WinForms and WPF but that's about it.
+- I'd like to try something with Electron in the future.
 
 ### Native
+- I only have (extremely limited) experience building native apps with Ionic. I didn't do much with it, but it was nice and easy to use 
+- I'd like to try Expo and/or React Native in the future.
