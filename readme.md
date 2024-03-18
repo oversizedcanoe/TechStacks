@@ -16,7 +16,8 @@ The purpose of this repo is to list out my preferred languages, libraries, and t
  - Blazor is a wild card. I won't use Blazor unless I specifically have a .NET backend (is it even possible to use a non-C# backend...?). For building an MVP, it's fantastic. I'm not sure how well it would scale with tons of features or interactivity requirements. In my relatively inexperienced opinion, it's got a specific use case as a basic front end for some sort of .NET service or class library. Blazor WASM could definitely help improve this, though.
 
 ##### CSS
-- I really only have experience with Bootstrap. I've toyed around with other libraries a handful of times but none of them have ever stuck.
+- I mainly have experience with Bootstrap. I've toyed around with other libraries a handful of times but none of them have ever stuck.
+- I've recently tried Pure CSS and it seems useful for simple websites.
 - I'd like to try out other CSS libraries in the future, ideally ones which provide components and layout functionality like Bootstrap. A few I'd like to try are Tailwind CSS (or maybe Daisy UI) and Materialize.
 
 ### Back End
