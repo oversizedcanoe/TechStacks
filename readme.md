@@ -18,7 +18,7 @@ The purpose of this repo is to list out my preferred languages, libraries, and t
 ##### CSS
 - I mainly have experience with Bootstrap. I've toyed around with other libraries a handful of times but none of them have ever stuck.
 - I've recently tried Pure CSS and it seems useful for simple websites.
-- I'd like to try out other CSS libraries in the future, ideally ones which provide components and layout functionality like Bootstrap. A few I'd like to try are Tailwind CSS (or maybe Daisy UI) and Materialize.
+- I'd like to try out other CSS libraries in the future, ideally ones which provide components and layout functionality like Bootstrap. A few I'd like to try are Tailwind CSS (or maybe Daisy UI), Materialize, and PicoCSS.
 
 ### Back End
 - For large, complex, feature rich applications, .NET (using C#) is my framework of choice. *Yes, I copied the first sentence from the Angular section.* .NET feels the same as Angular in the sense that it has built in libraries for almost everything, and a great package manager for things it doesn't. Entity Framework Core is also amazing to work with. Whether it is a class library, background service, MVC, or Web API, .NET is my #1.
