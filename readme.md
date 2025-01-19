@@ -3,36 +3,42 @@ The purpose of this repo is to list out my preferred languages, libraries, and t
 
 ---
 
-### Front End
+## Front End
+- Large applications: Angular
+  - Batteries included (routing, HTTP requests, DI, etc)
+  - Use Angular CLI to start up
 
- - For large, complex, feature rich websites, Angular is my framework of choice. The batteries included approach to everything, from routing, HTTP requests, and *especially* Dependency Injection, is hard to beat when developing a dynamic, interactive application.
-   - I use the Angular CLI to start and develop Angular apps.
+- Small applications: React
+  - Helps to force smaller components due to TS/HTML being in one file
+  - Use Vite to start up
 
- - For smaller -- but still dynamic and interactive -- websites, I have been enjoying React. I know it is fully capable of being used for larger projects (case in point: FaceBook), but for things larger than a hobby site/app I prefer Angular for the reasons above. By keeping the TS and HTML in a single file (unlike Angular), it nudges me to write smaller, simpler components.
-   - I have had success using Vite to start and develop React apps.
+- Static websites: Astro
+  - Great DX, runs fast, good for content-focused sites, not necessarily reactivity/SPA stuff
+  - I want to try their [templates](https://github.com/withastro/astro/tree/main/examples)
 
- - For static websites, I have been using Astro. It has great DX, runs fast, codes similar to React, and probably does a bunch of stuff I don't even know about. I don't think it would be great for a 'Web Application'-type website, but for content-focused sites it works great. I'd like to try out their [templates](https://github.com/withastro/astro/tree/main/examples) one day.
+- Occaisionally: Blazor
+  - Good for building an MVP for a C# background service type application
 
- - Blazor is a wild card. I won't use Blazor unless I specifically have a .NET backend (is it even possible to use a non-C# backend...?). For building an MVP, it's fantastic. I'm not sure how well it would scale with tons of features or interactivity requirements. In my relatively inexperienced opinion, it's got a specific use case as a basic front end for some sort of .NET service or class library. Blazor WASM could definitely help improve this, though.
+### CSS
+- Bootstrap is good but seems to be everywhere, making a bunch of sites look the same
+- [Pure CSS](https://pure-css.github.io/) is great for simple websites/minimal styling
+- [Pico CSS](https://picocss.com/) is another favorite of mine, great for semantic styling/CSS reset
+ 
+## Back End
+- Large Applications: .NET Core
+  - Similar to Angular reasoning, batteries included framework
 
-##### CSS
-- I mainly have experience with Bootstrap. I've toyed around with other libraries a handful of times but none of them have ever stuck.
-- I've recently tried Pure CSS and it seems useful for simple websites.
-- I'd like to try out other CSS libraries in the future, ideally ones which provide components and layout functionality like Bootstrap. A few I'd like to try are Tailwind CSS (or maybe Daisy UI), Materialize, and PicoCSS.
+- Small Applications: Python
+  - [Falcon](https://falcon.readthedocs.io/en/stable/) for APIs
+  
+## Database
+- SQL Server at work, Postgres at home
+- SQLite for simple/local projects
+- Want to try a NoSQL database in the future
 
-### Back End
-- For large, complex, feature rich applications, .NET (using C#) is my framework of choice. *Yes, I copied the first sentence from the Angular section.* .NET feels the same as Angular in the sense that it has built in libraries for almost everything, and a great package manager for things it doesn't. Entity Framework Core is also amazing to work with. Whether it is a class library, background service, MVC, or Web API, .NET is my #1.
-- For smaller backend applications, including small scripting tasks, I like Python. For APIs specifically, I have used Falcon. It is quick to get up and running, and does the job.
+## Desktop
+- I don't really build desktop apps. I have experence with WinForms and WPF but that's about it
 
-### Database
-- For complex projects, I like using SQL Server. It is feature rich and dependable.
-- For simple projects and MVPs, I like using SQLite.
-- I'd like to try a NoSQL database in the future.
-
-### Desktop
-- I don't really build desktop apps. I have experence with WinForms and WPF but that's about it.
-- I'd like to try something with Electron in the future.
-
-### Native
-- I only have (extremely limited) experience building native apps with Ionic. I didn't do much with it, but it was nice and easy to use.
-- I'd like to try Expo and/or React Native in the future.
+## Moblile
+- I only have (extremely limited) experience building native apps with Ionic. I didn't do much with it, but it was nice and easy to use
+- Want to try Expo and/or React Native in the future
